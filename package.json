@@ -7,6 +7,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint --ext .ts,.js,.vue .",
+    "lintfix": "eslint --ext .ts,.js,.vue . && yarn lint --fix",
     "prepare": "husky install"
   },
   "devDependencies": {

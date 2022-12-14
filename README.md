@@ -22,7 +22,13 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
+```
+
+## correr linter del proyecto
+
+```bash
+yarn lintfix
 ```
 
 ## Production
